@@ -98,13 +98,13 @@ position:absolute;
           <!-- Right -->
           <ul class="navbar-nav nav-flex-icons">
             <li class="nav-item">
-              <a href="https://twitter.com/MrMoutar" class="nav-link border border-light rounded waves-effect"
+              <a href="#" class="nav-link border border-light rounded waves-effect"
                 target="_blank">
                 <i class="fab fa-codepen mr-2"></i>Style|CSS
               </a>
             </li>
             <li class="nav-item">
-              <a href="https://twitter.com/MrMoutar" class="nav-link border border-light rounded waves-effect"
+              <a href="https://github.com/MrMoutar/SecurHospi" class="nav-link border border-light rounded waves-effect"
                 target="_blank">
                 <i class="fab fa-github mr-2"></i>Code|Source
               </a>
