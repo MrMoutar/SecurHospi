@@ -1,8 +1,9 @@
-[![Material Design for Bootstrap](http://moutar.fr.nf/logo.png)](http://moutar.fr.nf/)
-
 # Secur|Hospi
+Projet SIN 2018-2019
+________
 
-## Project SIN 2018-2019
+
+[![Projet SIN 2018-2019](http://moutar.fr.nf/logo.png)](http://moutar.fr.nf/)
 
 ________
 
@@ -15,4 +16,4 @@ ________
 
 2. 
 
-# Visit our website: https://mdbootstrap.com/
+# WebSite: http://moutar.fr.nf/
