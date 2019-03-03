@@ -3,12 +3,12 @@ Projet SIN 2018-2019
 ________
 
 
-[![Projet SIN 2018-2019](http://moutar.fr.nf/logo.png)](http://moutar.fr.nf/)
+[![Projet SIN 2018-2019](http://sin.ze.cx//logo.png)](http://sin.ze.cx/)
 
 ________
 
 # Simulation : 
-## http://moutar.fr.nf/
+## http://sin.ze.cx/
 
 # Cahier des chqrges :
 
@@ -16,4 +16,4 @@ ________
 
 2. 
 
-# WebSite: http://moutar.fr.nf/
+# WebSite: http://sin.ze.cx/
