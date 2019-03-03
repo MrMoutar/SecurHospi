@@ -1,20 +1,5 @@
 <?php 
-$Version="0.1";
-$HeureMedecin="1,2,8,5,6,4,3,2,1,5,4,3,5,4,5,8,4,6,2,4,3,3,2,3,6,4,6,5,6,3,2";
-$HeurePatient="12,12,12,12,12,12,10,8,8,7,6,5,3,3,4,5,6,6,7,8,9,8,9,9,10,12,12";
-$HeureVisiteur="2,8,4,6,7,10,2,5,6,4,3,9,8,7,8,5,6,5,8,4,6,8,4,8,6,2,6,4,6,4";
-$Visiteur="10";
-$Patient="8";
-$Medecin="4";
-$ColorVisiteur="0,188,108";
-$ColorVisiteurHex="#00BC6C";
-$ColorVisiteurHex2="#66B266";
-$ColorPatient="219,0,19";
-$ColorPatientHex="#DB0013";
-$ColorPatientHex2="#B41C3A";
-$ColorMedecin="0,102,204";
-$ColorMedecinHex="#0066CC";
-$ColorMedecinHex2="#4C8CB5";
+include 'Config.php';
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -186,7 +171,7 @@ position:absolute;
         <a href="#" class="list-group-item active waves-effect">
           <i class="fas fa-chart-pie mr-3"></i>Dashboard
         </a>
-        <a href="#" class="list-group-item list-group-item-action waves-effect">
+        <a href="Medecin.php" class="list-group-item list-group-item-action waves-effect">
           <i class="fas fa-user mr-3"></i>Medecin <span class="badge badge-primary badge-pill pull-right"><?php echo $Medecin ; ?></span></a>
         <a href="#" class="list-group-item list-group-item-action waves-effect">
           <i class="fas fa-user mr-3"></i>Patient <span class="badge badge-primary badge-pill pull-right"><?php echo $Patient ; ?></span></a>
