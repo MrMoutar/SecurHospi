@@ -1,6 +1,6 @@
 <?php 
 include 'Config.php';
-$Page="Medecin";
+$Page="Patient";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -44,12 +44,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT id, Nom, Prenom, Metier, entrer, sortie FROM `login`";
+$sql = "SELECT id, Nom, Prenom, Maladie, DateDeEntrer, DateDeSortie FROM `patient`";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<tr><th scope='row'>" . $row["id"]. "</th>" . "<td>" . $row["Nom"]. "</td><td>" . $row["Prenom"] . "</td><td>" . $row["Metier"] ."</td><td>" . $row["entrer"] ."</td><td>" . $row["sortie"] . "</td></tr>" ;
+        echo "<tr><th scope='row'>" . $row["id"]. "</th>" . "<td>" . $row["Nom"]. "</td><td>" . $row["Prenom"] . "</td><td>" . $row["Maladie"] ."</td><td>" . $row["DateDeEntrer"] ."</td><td>" . $row["DateDeSortie"] . "</td></tr>" ;
     }
 } else {
     echo "0 results";

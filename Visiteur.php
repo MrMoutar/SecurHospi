@@ -1,6 +1,6 @@
 <?php 
 include 'Config.php';
-$Page="Medecin";
+$Page="Visiteur";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -26,9 +26,7 @@ $Page="Medecin";
       <thead class="blue lighten-4">
         <tr>
           <th>id</th>
-          <th>Nom</th>
-          <th>Prenom</th>
-          <th>Metier</th>
+          <th>Nombre</th>
           <th>Dernier entrer</th>
           <th>Dernier sortie</th>
         </tr>
@@ -44,7 +42,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT id, Nom, Prenom, Metier, entrer, sortie FROM `login`";
+$sql = "SELECT id, Nom, Prenom, Metier, entrer, sortie FROM `visiteur`";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
