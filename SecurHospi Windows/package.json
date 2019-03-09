@@ -1,7 +1,7 @@
 {
   "name": "SecurHospi",
-  "version": "0.1",
-  "description": "Projet sin 2018-2019",
+  "version": "0.1.0",
+  "description": "Projet sin 2018 2019",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -9,7 +9,7 @@
   "author": "Abdessamade Moutar",
   "license": "Priver",
   "devDependencies": {
-    "electron": "^3.0.14",
+    "electron": "^4.0.8",
     "electron-packager": "^13.0.1"
   },
   "dependencies": {
