@@ -1,7 +1,7 @@
 {
-  "name": "MtrService",
-  "version": "0.0.1",
-  "description": "Service by Mtr",
+  "name": "SecurHospi",
+  "version": "0.1",
+  "description": "Projet sin 2018-2019",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
