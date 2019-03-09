@@ -1,19 +1,10 @@
-# Secur|Hospi 0.2
+# Secur|Hospi
 
-Projet SIN 2018-2019
+## Projet SIN 2018-2019 [Lycee de L'Europe](http://www.lycee-europe-dunkerque.fr/)
 
 ________
-
-
 [![Secur|Hospi](http://moutar.fr.nf/logo.png)](http://moutar.fr.nf)
-
-
-Lycee de L'Europe
-
 ________
-
-# Live Previews: 
-## http://moutar.fr.nf
 
 # Most important features:
 
